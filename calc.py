@@ -1,11 +1,2 @@
-def main():
-    x=int(input("what's x? "))
-    print("the square of x is ",square(x))
-
-
-def square(n):
-        return(n+n)
-        ...
-
-if __name__ =="__main__":
-    main()
+name = input("whats your name")
+print (f"hello{name}")
